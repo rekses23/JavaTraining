@@ -13,7 +13,7 @@ public class Task126 {
 
 }
 
-abstract class abstractClass {
+abstract class AbstractClass {
   abstract void abstractMethod();
 
   void concreteMethod() { // concrete methods are still allowed in abstract classes
@@ -21,13 +21,13 @@ abstract class abstractClass {
   }
 }
 
-class B extends abstractClass {
+class B extends AbstractClass {
   void abstractMethod() {
     System.out.println("B's implementation of abstractMethod.");
   }
 }
 
-class C extends abstractClass {
+class C extends AbstractClass {
   void abstractMethod() {
     System.out.println("C's implementation of abstractMethod.");
   }
