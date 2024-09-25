@@ -1,8 +1,8 @@
 package BankingApp.components;
 
-import javax.swing.*;
+import javax.swing.JTextField;
 import javax.swing.border.EmptyBorder;
-import java.awt.*;
+import java.awt.Font;
 
 public class TextField extends JTextField {
 

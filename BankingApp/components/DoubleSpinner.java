@@ -1,8 +1,9 @@
 package BankingApp.components;
 
-import javax.swing.*;
+import javax.swing.SpinnerNumberModel;
+import javax.swing.JSpinner;
 import javax.swing.border.EmptyBorder;
-import java.awt.*;
+import java.awt.Font;
 
 public class DoubleSpinner extends JSpinner {
 

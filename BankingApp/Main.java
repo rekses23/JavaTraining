@@ -2,16 +2,18 @@ package BankingApp;
 
 
 import BankingApp.db.UsersCollection;
-import BankingApp.models.User;
 import BankingApp.services.UserService;
 import BankingApp.services.UserServiceImpl;
 import BankingApp.views.HomePanel;
 import BankingApp.views.LoginPanel;
 import BankingApp.views.RegisterPanel;
 
-import javax.swing.*;
-import java.awt.*;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JOptionPane;
+import java.awt.CardLayout;
 import java.io.File;
+
 import java.io.IOException;
 
 public class Main {

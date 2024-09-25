@@ -1,8 +1,9 @@
 package BankingApp.components;
 
-import javax.swing.*;
+import javax.swing.JButton;
 import javax.swing.border.EmptyBorder;
-import java.awt.*;
+import java.awt.Font;
+import java.awt.Color;
 import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
 

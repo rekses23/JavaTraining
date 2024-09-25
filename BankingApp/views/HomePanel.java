@@ -7,14 +7,23 @@ import BankingApp.components.TextField;
 import BankingApp.models.User;
 import BankingApp.services.UserService;
 
-import javax.swing.*;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JComponent;
+import javax.swing.JOptionPane;
+import javax.swing.BoxLayout;
+import javax.swing.Box;
 import javax.swing.border.EmptyBorder;
 import javax.swing.border.LineBorder;
-import java.awt.*;
-import java.io.IOException;
+import java.awt.Dimension;
+import java.awt.GridLayout;
+import java.awt.BorderLayout;
+import java.awt.Component;
+import java.awt.Font;
+import java.awt.Color;
 import java.time.LocalTime;
-import java.util.InputMismatchException;
-import java.util.Scanner;
+
+import java.io.IOException;
 
 public class HomePanel extends JPanel {
   private final Main main;

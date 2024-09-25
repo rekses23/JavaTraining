@@ -1,8 +1,8 @@
 package BankingApp.components;
 
-import javax.swing.*;
+import javax.swing.JPasswordField;
 import javax.swing.border.EmptyBorder;
-import java.awt.*;
+import java.awt.Font;
 
 public class PasswordField extends JPasswordField {
 

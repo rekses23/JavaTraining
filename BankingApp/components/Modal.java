@@ -1,7 +1,8 @@
 package BankingApp.components;
 
-import javax.swing.*;
-import java.awt.*;
+import javax.swing.JDialog;
+import java.awt.BorderLayout;
+import java.awt.Frame;
 
 public class Modal extends JDialog {
 
